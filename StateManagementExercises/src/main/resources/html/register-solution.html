@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Register</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .container-fluid {
+            width: 600px;
+            margin: 10px auto;
+        }
+
+        input[type=submit] {
+            width: 200px;
+            float: right;
+            margin-left: 10px;
+
+        }
+
+        .error-summary {
+            color: red;
+        }
+
+        .error-input {
+            border: 2px solid red;
+        }
+
+        input[type=reset] {
+            width: 200px;
+            float: right;
+        }
+    </style>
+
+</head>
+<body>
+<div class="container-fluid">
+    <form>
+        <legend>Register</legend>
+        <div class="well">
+            <span class="glyphicon glyphicon-asterisk"></span> <strong>Required field</strong>
+        </div>
+        <div class="well">
+            <span class="glyphicon glyphicon-asterisk error-summary"></span> <strong class="error-summary">First Name is
+            too long</strong><br/>
+            <span class="glyphicon glyphicon-asterisk error-summary"></span> <strong class="error-summary">Last Name is
+            too short</strong><br/>
+            <span class="glyphicon glyphicon-asterisk error-summary"></span> <strong class="error-summary">Invalid
+            email</strong><br/>
+            <span class="glyphicon glyphicon-asterisk error-summary"></span> <strong class="error-summary">Passwords
+            does not match</strong>
+        </div>
+        <div class="input-group">
+            <input type="text" class="form-control error-input" name="fullName" placeholder="First Name"
+                   aria-describedby="basic-addon2">
+            <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-asterisk"></span></span>
+        </div>
+        <br/>
+        <div class="input-group">
+            <input type="text" class="form-control error-input" name="fullName" placeholder="Last Name"
+                   aria-describedby="basic-addon2">
+            <span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-asterisk"></span>
+			  </span>
+        </div>
+        <br/>
+        <div class="input-group">
+            <input type="text" class="form-control error-input" placeholder="Email" aria-describedby="basic-addon2">
+            <span class="input-group-addon" id="basic-addon3">		<span class="glyphicon glyphicon-asterisk"></span></span>
+        </div>
+        <br/>
+        <div class="input-group">
+            <input type="text" class="form-control error-input" placeholder="Confirm Email"
+                   aria-describedby="basic-addon2">
+            <span class="input-group-addon" id="basic-addon4">		<span class="glyphicon glyphicon-asterisk"></span></span>
+        </div>
+        <br/>
+        <div class="input-group">
+            <input type="password" class="form-control error-input" placeholder="Password"
+                   aria-describedby="basic-addon2">
+            <span class="input-group-addon" id="basic-addon5">		<span class="glyphicon glyphicon-asterisk"></span></span>
+        </div>
+        <br/>
+        <div class="input-group">
+            <input type="password" class="form-control error-input" placeholder="Confirm Password"
+                   aria-describedby="basic-addon2">
+            <span class="input-group-addon" id="basic-addon6">		<span class="glyphicon glyphicon-asterisk"></span></span>
+        </div>
+        <br/>
+        <br/>
+        <input type="submit" class="btn btn-lg btn-primary" value="Send"/>
+        <input type="reset" class="btn btn-lg btn-secondary" value="Clear"/>
+
+    </form>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

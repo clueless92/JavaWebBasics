@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>SoftUni Library</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <style>
+        div.collapse span {
+
+            margin-right: 50px;
+        }
+
+        input.form-conrol {
+            width: 1000px;
+        }
+
+        .navbar-text div.badge {
+            margin-left: -10px;
+        }
+
+        .card-deck {
+            margin-top: 3%;
+            margin-bottom: 3%;
+        }
+
+        .list-group {
+            margin-top: 10%;
+            margin-bottom: 3%;
+        }
+    </style>
+
+</head>
+<body>
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">Library</a>
+    <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">C# Books</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Java Books</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+            </li>
+            <li class="nav-item">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search for a book...">
+                    <span class="input-group-btn">
+							<button class="btn btn-secondary" type="submit" aria-label="Go!">Go!</button>
+						  </span>
+                </div>
+            </li>
+        </ul>
+
+        <span class="navbar-text">Hello, <a href="#">Log in</a></span>
+        <span class="navbar-text">
+					<a href="#"><img src="../img/shopping-cart.png"/></a>
+					<div class="badge badge-danger">2</div>
+				</span>
+        <span class="navbar-text">
+					<a href="#"><img width="30px"
+                                     src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1280px-Flag_of_the_United_Kingdom.svg.png"/></a>
+					<a href="#"><img width="30px"
+                                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/1280px-Flag_of_Bulgaria.svg.png"/></a>
+				</span>
+    </div>
+</nav>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="list-group">
+                <a href="#" class="list-group-item active">Subscribtion Process</a>
+                <a href="#" class="list-group-item">General Information</a>
+                <a href="#" class="list-group-item">Contacts</a>
+            </div>
+        </div>
+        <div class="col-sm-9">
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="../img/book.png" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Pgrogramming Fundamentals C#</h4>
+                        <p class="card-text"><strong>45</strong> copies available</p>
+                        <img src="../img/rating.png"/>
+                        <p class="card-text"><a href="#">Details</a></p>
+                        <button type="button" class="btn btn-primary">Borrow</button>
+                        <button type="button" class="btn btn-secondary">Add to Cart</button>
+                        <p class="card-text">
+                            <small class="text-muted">Last time borrowed 3 mins ago</small>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="../img/book.png" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Pgrogramming Fundamentals Java</h4>
+                        <p class="card-text"><strong>3</strong> copies available</p>
+                        <img src="../img/rating.png"/>
+                        <p class="card-text"><a href="#">Details</a></p>
+                        <button type="button" class="btn btn-primary">Borrow</button>
+                        <button type="button" class="btn btn-secondary">Add to Cart</button>
+                        <p class="card-text">
+                            <small class="text-muted">Last time borrowed 5 hours ago</small>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="../img/book.png" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Основи на програмирането C#</h4>
+                        <p class="card-text"><strong>3</strong> copies available</p>
+                        <img src="../img/rating.png"/>
+                        <p class="card-text"><a href="#">Details</a></p>
+                        <button type="button" class="btn btn-primary">Borrow</button>
+                        <button type="button" class="btn btn-secondary">Add to Cart</button>
+                        <p class="card-text">
+                            <small class="text-muted">Last time borrowed 1 day ago</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1">Previous</a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+<footer>
+    <p style="text-align: center;">All Rights Reserved &copy; 2017</p>
+    </div>
+</footer>
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>

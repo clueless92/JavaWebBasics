@@ -1,0 +1,8 @@
+li {
+     list-style: none;
+     display: inline;
+ }
+
+a {
+    text-decoration: none;
+}

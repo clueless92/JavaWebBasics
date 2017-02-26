@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+	<head>
+        <meta charset="utf-8">
+        <title>Calculator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+		<style>
+			.container-fluid {
+				margin-top: 10px;
+				margin-left: 5%;
+				margin-right: 5%;
+				background-color: #EFEEED;
+				border: 1px solid #EFEEED;
+				border-radius: 5px;
+			}
+			.col-sm-3{
+				text-align: center;
+			}
+			input {
+				margin: 5%;
+				margin-left: 0;
+				margin-top: 2%;
+				text-align: right;
+				width: 100%;	
+				line-height: 42px;]
+			}
+			div a {
+				margin: 5px;
+			}
+
+			.btn-clear{
+				background-color: #CF4647;
+				border-color: #CF4647;
+			}
+			.btn-clear:hover{
+				background-color: #CF4647; /*TODO darker red*/
+				border-color: #CF4647;     /*TODO darker red*/
+			}
+			.btn-equal {
+				background-color: #379F7A;
+				border-color: #379F7A;
+			}
+			.btn-equal:hover{
+				background-color: #379F7A; /*TODO darker green*/
+				border-color: #379F7A;     /*TODO darker green*/
+			}
+			.btn-primary {
+				width: 100%;
+			}
+			.sign {
+				background-color: #014c8c;
+				border-color: #014c8c;
+			}
+		</style>
+	</head>
+    <body>
+        <div class="container-fluid">
+		<div class="row">
+				<div class="col-sm-6">
+					<input type="text" class="form-control" placeholder="0"/>
+					
+				</div>
+				<div class="col-sm-3"><a class="btn btn-primary btn-clear" href="#" role="button">Clear</a></div>
+				<div class="col-sm-3"><a class="btn btn-primary btn-equal" href="#" role="button">=</a></div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3"><a class="btn btn-primary" href="#" role="button">7</a></div>
+				<div class="col-sm-3"><a class="btn btn-primary" href="#" role="button">8</a></div>
+				<div class="col-sm-3"><a class="btn btn-primary" href="#" role="button">9</a></div>
+				<div class="col-sm-3"><a class="btn btn-primary sign" href="#" role="button">x</a></div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3"><a class="btn btn-primary" href="#" role="button">4</a></div>
+				<div class="col-sm-3"><a class="btn btn-primary" href="#" role="button">5</a></div>
+				<div class="col-sm-3"><a class="btn btn-primary" href="#" role="button">6</a></div>
+				<div class="col-sm-3"><a class="btn btn-primary sign" href="#" role="button">/</a></div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3"><a class="btn btn-primary" href="#" role="button">1</a></div>
+				<div class="col-sm-3"><a class="btn btn-primary" href="#" role="button">2</a></div>
+				<div class="col-sm-3"><a class="btn btn-primary" href="#" role="button">3</a></div>
+				<div class="col-sm-3"><a class="btn btn-primary sign" href="#" role="button">+</a></div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3"><a class="btn btn-primary sign" href="#" role="button">&plusmn;</a></div>
+				<div class="col-sm-3"><a class="btn btn-primary" href="#" role="button">0</a></div>
+				<div class="col-sm-3"><a class="btn btn-primary sign" href="#" role="button">.</a></div>
+				<div class="col-sm-3"><a class="btn btn-primary sign" href="#" role="button">-</a></div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+	<head>
+        <title>Contacts</title>
+        <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+     <link href="../css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		.container-fluid {
+			width: 600px;
+			margin: 10px auto;
+		}
+		.glyphicon{
+		color: red;
+		}
+		input[type=submit]{
+		width: 200px;
+		float: right;}
+	</style>
+		
+	</head>
+    <body>
+		<div class="container-fluid">
+		<form>
+			<legend>Contact Us</legend>
+			<div class="well"><span class="glyphicon glyphicon-asterisk"></span> <strong>Required field</strong></div>
+			<div class="input-group">
+			  <input type="text" class="form-control" name="fullName" placeholder="Full Name" aria-describedby="basic-addon2">
+			  <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-asterisk"></span>
+			  </span>
+			</div>
+			<br/>
+			<div class="input-group">
+			  <input type="text" class="form-control" placeholder="Email" aria-describedby="basic-addon2">
+			  <span class="input-group-addon" id="basic-addon2">		<span class="glyphicon glyphicon-asterisk"></span></span>
+			</div>
+			<br/>
+			<div class="input-group">
+			  <input type="text" class="form-control" placeholder="Confirm Email" aria-describedby="basic-addon2">
+			  <span class="input-group-addon" id="basic-addon3">		<span class="glyphicon glyphicon-asterisk"></span></span>
+			</div>
+			<br/>
+			<div class="input-group">
+			  <textarea name="InputMessage" class="form-control" rows="5" required="" placeholder="Enter your message for us here..."></textarea>
+			  <span class="input-group-addon" id="basic-addon4">		<span class="glyphicon glyphicon-asterisk"></span></span>
+			</div>
+			<br/>
+			<input type="submit" class="btn btn-lg btn-primary"value="Send" />
+		</form>
+		</div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+	</body>
+</html>
